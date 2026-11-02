@@ -264,7 +264,7 @@ a:hover { color: var(--link-hover); }
 /* --- Main content --- */
 .main-content {
   padding: 1.5rem 2rem 3rem;
-  max-width: calc(var(--content-max) + 4rem);
+  min-width: 0;  /* prevent grid blowout */
 }
 
 /* Breadcrumbs */
